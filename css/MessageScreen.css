@@ -1,0 +1,137 @@
+
+
+/* Side Border*/
+.sideBor{
+border-right: 1px solid white;
+
+}
+
+div .col{
+}
+
+
+.rowHeight{
+  height: 85px;
+  width: 100%;
+position: relative;
+transition: transform 0.5s;
+border-radius: 10px;
+border: 1px solid white;
+margin-bottom: 2px;
+color: white;
+cursor: pointer;
+font-family: 'Open Sans', sans-serif;
+font-size:15px;
+background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+}
+
+.rowHeight:hover{
+  transform: translateX(30px);
+}
+
+.rowHeight.ng-animate{
+  transition: 0s;
+}
+
+
+/*Style for sid panel of displaying message*/
+.contactMsg .contactTime{
+  position: absolute;
+}
+
+.contactName{
+
+}
+
+.contactMsg{
+  top:15px;
+  width: 550px;
+}
+
+.contactTime{
+  left: 385px;
+  bottom: 39px;
+  font-size: 12px;
+}
+
+/***************SMS MESSAGE*************/
+
+.sendPanel{
+  border-bottom: 1px solid white;
+  position: relative;
+
+}
+
+.phoneNumber{
+  position: absolute;
+}
+
+.borderPhone input
+{border-radius: 10px;}
+
+.smsMessage{
+border:1px solid white;
+border-radius: 20px;
+margin-left: 150px;
+padding: 10px;
+margin-top: 5px;
+color: white;
+background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+}
+
+
+/*MEssage Send Panel*/
+textarea{
+  resize: none;
+  width: 500px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.buttonSize
+{
+  width: 90px;
+position: absolute;
+  left: 200px;
+  top:93px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 19px;
+  padding: 9px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+
+.buttonSize span {
+  cursor: pointer;
+  position: absolute;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonSize span:after {
+  content: '\00bb';
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonSize:hover span {
+  padding-right: 25px;
+}
+
+.buttonSize:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.deleteOpt{
+left:352px;
+font-size: 15px;:15px;}
